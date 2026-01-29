@@ -1,0 +1,65 @@
+# =========================
+# Node / Package Managers
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# TypeScript build output
+# =========================
+dist/
+build/
+out/
+
+# TypeScript cache / incremental
+*.tsbuildinfo
+
+# Compiled JS & sourcemaps (optional — keep if TS-only repo)
+*.js
+*.js.map
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*.local
+
+# =========================
+# macOS junk files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS thumbnail & metadata
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Coverage / Testing
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
