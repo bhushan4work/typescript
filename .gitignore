@@ -63,3 +63,9 @@ coverage/
 # =========================
 *.tmp
 *.bak
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Compiled output
+dist/
