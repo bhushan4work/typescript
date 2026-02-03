@@ -5,19 +5,22 @@ import { About } from './pages/About'
 import { Store } from './pages/Store'
 import { Navbar } from './components/Navbar'
 import "/src/index.css"
- 
+import { ShoppingCartProvider } from './context/ShoppingCartContext'
+
 export default function App() {
 
   return (
     <>
-      <Navbar/>
-      <div className='mb-4'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
+      <ShoppingCartProvider>
+        <Navbar />
+        <div className='mb-4'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/store" element={<Store />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </div>
+      </ShoppingCartProvider>
 
     </>
   )

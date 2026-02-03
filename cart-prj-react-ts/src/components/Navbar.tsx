@@ -5,17 +5,9 @@ export function Navbar() {
         <div>
             <nav className="flex p-4 sticky top-0 bg-white shadow-lg justify-between">
                 <div className="flex gap-10">
-                    <Link to="/" >
-                        Home
-                    </Link>
-
-                    <Link to="/store" >
-                        Store
-                    </Link>
-
-                    <Link to="/about" >
-                        About
-                    </Link>
+                    <Link to="/" > Home </Link>
+                    <Link to="/store" > Store </Link>
+                    <Link to="/about" > About </Link>
                 </div>
                 <button>
                     <svg className="relative w-[30px] h-[30px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
